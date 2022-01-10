@@ -162,7 +162,7 @@ public @interface Target {
 
 ```java
 public enum ElementType {
-    TYPE,             // 标记的注解可以应用于类的任何元素
+    TYPE,             // 标记的注解可以应用于类和接口
     FIELD,            // 标记的注解可以应用于字段
     METHOD,           // 标记的注解可以应用于方法
     PARAMETER,        // 标记的注解可以应用于方法的参数
